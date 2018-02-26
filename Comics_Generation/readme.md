@@ -15,6 +15,6 @@
 ## Result
 * I got the rank 2nd/170 in this course
 * Generated images corresponding to blue hair red eyes, black hair blue eyes, red hair green eyes.
-<img src="result/1.jpg" height="500px">
+<img src="result/1.jpg" height="150px">
 
 
