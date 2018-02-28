@@ -1,4 +1,6 @@
 # Game Playing
+<img src="result/test_dqn.gif">
+
 * Project link: [link](https://www.csie.ntu.edu.tw/~yvchen/f106-adl/A3)
 * Requirement: Use two kinds of reinforcement learning(RL) method to play [OpenAI](https://github.com/openai/gym) [Pong](https://gym.openai.com/envs/Pong-v0/) and [Breakout](https://gym.openai.com/envs/Breakout-v0/)
 
