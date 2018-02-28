@@ -15,10 +15,13 @@
 * I get the rank 30th/189 in this course
 
 #### Test
-* <img src="result/6.gif" height="300px">
-three people are dancing 
-* <img src="result/4.gif" height="300px">
-a man is playing a guitar 
-* <img src="result/8.gif" height="300px">
-a cat is looking at a mirror 
+1.
+<img src="result/6.gif" height="300px">
+Generated caption: three people are dancing <br/>
+2.
+<img src="result/4.gif" height="300px">
+Generated caption: a man is playing a guitar <br/>
+3.
+<img src="result/8.gif" height="300px">
+Generated caption: a cat is looking at a mirror 
 
