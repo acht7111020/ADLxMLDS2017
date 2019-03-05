@@ -8,6 +8,7 @@
 * The features of each video is 80\*4096 (Using VGG19)
 
 ## Pre-processing
+* Download [GloVe](https://nlp.stanford.edu/projects/glove/) pretrained word embedding file and save as 'pretrain/glove.6B.300d.txt'
 * For training: Create a dictionary to save the id corresponds to captions(train_caption_dict.pkl) (prevent out of memory)
 * For testing: Create a dictionary to save the id correnponds to features(test_id.pkl)
 * Every training step uses random sample method to choose training data
