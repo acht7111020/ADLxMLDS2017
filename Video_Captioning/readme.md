@@ -8,8 +8,16 @@
 * The features of each video is 80\*4096 (Using VGG19)
 
 ## Pre-processing
-1. Create a dictionary to save the id correnponds to features, and create a dictionary to save the id corresponds to captions (prevent out of memory)
-2. Every training step uses random sample method to choose training data
+* For training: Create a dictionary to save the id corresponds to captions(train_caption_dict.pkl) (prevent out of memory)
+* For testign: Create a dictionary to save the id correnponds to features(test_id.pkl)
+* Every training step uses random sample method to choose training data
+
+## Train
+1. Download MSVD dataset (NOTICE: remember the path of the video features folders **'\*/feat'**)
+2. Follow pre-processing method above to create correnponding files
+3. For training, modify ```main.py``` line 265 to change the path of video features folder, and modify line 266 to change the path of pre-processing file(train_caption_dict.pkl)
+4. Run ```python3 train.py --train --input [MSVD_folder_path] --savepath [save_model_path]```
+
 
 ## Result
 * I get the rank 30th/189 in this course
