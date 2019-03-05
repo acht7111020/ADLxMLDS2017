@@ -9,7 +9,7 @@
 
 ## Pre-processing
 * For training: Create a dictionary to save the id corresponds to captions(train_caption_dict.pkl) (prevent out of memory)
-* For testign: Create a dictionary to save the id correnponds to features(test_id.pkl)
+* For testing: Create a dictionary to save the id correnponds to features(test_id.pkl)
 * Every training step uses random sample method to choose training data
 
 ## Train
